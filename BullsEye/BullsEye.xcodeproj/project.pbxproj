@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D4703922497A6CB00CC42F7 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4703912497A6CB00CC42F7 /* AboutViewController.swift */; };
+		9D4703942497A8F700CC42F7 /* AboutAuthourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4703932497A8F700CC42F7 /* AboutAuthourViewController.swift */; };
+		9D4703962497BADB00CC42F7 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 9D4703952497BADB00CC42F7 /* BullsEye.html */; };
+		9D4703992497BBB100CC42F7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4703982497BBB100CC42F7 /* WebKit.framework */; };
 		9D5EA4172492C4E70024FE6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5EA4162492C4E70024FE6F /* AppDelegate.swift */; };
 		9D5EA4192492C4E70024FE6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5EA4182492C4E70024FE6F /* SceneDelegate.swift */; };
 		9D5EA41B2492C4E70024FE6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5EA41A2492C4E70024FE6F /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D4703912497A6CB00CC42F7 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		9D4703932497A8F700CC42F7 /* AboutAuthourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthourViewController.swift; sourceTree = "<group>"; };
+		9D4703952497BADB00CC42F7 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		9D4703982497BBB100CC42F7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		9D5EA4132492C4E70024FE6F /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5EA4162492C4E70024FE6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D5EA4182492C4E70024FE6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +39,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D4703992497BBB100CC42F7 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D4703972497BBB100CC42F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D4703982497BBB100CC42F7 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9D5EA40A2492C4E70024FE6F = {
 			isa = PBXGroup;
 			children = (
 				9D5EA4152492C4E70024FE6F /* BullsEye */,
 				9D5EA4142492C4E70024FE6F /* Products */,
+				9D4703972497BBB100CC42F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,9 +78,12 @@
 				9D5EA4182492C4E70024FE6F /* SceneDelegate.swift */,
 				9D5EA41A2492C4E70024FE6F /* ViewController.swift */,
 				9D5EA41C2492C4E70024FE6F /* Main.storyboard */,
+				9D4703932497A8F700CC42F7 /* AboutAuthourViewController.swift */,
+				9D4703912497A6CB00CC42F7 /* AboutViewController.swift */,
 				9D5EA41F2492C4E90024FE6F /* Assets.xcassets */,
 				9D5EA4212492C4E90024FE6F /* LaunchScreen.storyboard */,
 				9D5EA4242492C4E90024FE6F /* Info.plist */,
+				9D4703952497BADB00CC42F7 /* BullsEye.html */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -126,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D5EA4232492C4E90024FE6F /* LaunchScreen.storyboard in Resources */,
+				9D4703962497BADB00CC42F7 /* BullsEye.html in Resources */,
 				9D5EA4202492C4E90024FE6F /* Assets.xcassets in Resources */,
 				9D5EA41E2492C4E70024FE6F /* Main.storyboard in Resources */,
 			);
@@ -140,6 +162,8 @@
 			files = (
 				9D5EA41B2492C4E70024FE6F /* ViewController.swift in Sources */,
 				9D5EA4172492C4E70024FE6F /* AppDelegate.swift in Sources */,
+				9D4703922497A6CB00CC42F7 /* AboutViewController.swift in Sources */,
+				9D4703942497A8F700CC42F7 /* AboutAuthourViewController.swift in Sources */,
 				9D5EA4192492C4E70024FE6F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
